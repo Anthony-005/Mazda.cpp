@@ -2,7 +2,6 @@
 #include<string>//shows the string
 using namespace std;//cout,cin,endl
 class car{
-    
     public://access specifier
     string brand;
     string model;

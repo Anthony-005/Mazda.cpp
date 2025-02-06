@@ -1,5 +1,4 @@
-
-#include <iostream>//cout,cin
+#include <iostream>
 #include <string>
 #include <ctime>  // Include the ctime library to handle date calculations
 
@@ -58,9 +57,10 @@ int main() {
     } else if (numberofdaysoverdue >= 14 && numberofdaysoverdue < 31) {
         finerate = 100;
     } else {
-        finerate = 200;  // If overdue more than 30 days, charge a
+        finerate = 200;  // If overdue more than 30 days, charge an extra 100 per day
     }
-    fine_amount = numberofdaysoverdue*finerate;
-    cout<<"The fine amount is:"<<fine_amount<<endl;
+    fine_amount = numberofdaysoverdue * finerate;
+    cout<<"The fine amount for the book with bookID "<<bookID<<" is:"<<fine_amount<<endl;
     return 0;
 }
+#
