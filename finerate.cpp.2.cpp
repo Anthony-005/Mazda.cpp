@@ -1,5 +1,3 @@
-// Anthony Ndungu
-// BSCIT-05-0097/2024
 #include <iostream>
 #include <string>
 #include <ctime>  // Include the ctime library to handle date calculations

@@ -1,5 +1,4 @@
-// Anthony ndungu 
-// BSCIT-05-0097/2024
+
 #include<iostream>//cout,cin
 # define PI 3.14159
 using namespace std;//cout,cin,endl

@@ -6,36 +6,35 @@
 // The program will then create another bank account object and set the account holder name and balance, and then get the account holder name and balance and print them to the console.
 // Admission number:BSCIT-05-0097/2024
 #include<iostream>//cout,cin
-#include<string>//string
 using namespace std;//cout,cin,endl
-class Bankaccount{
+class Bank account{
     private://access specifier
-    string account_holder;
-    double balance;//data members
+    string account holder;
+    double balance;
       
 };
 public:
-    void setAccountHolder(string name) {//member function
+    void setAccountHolder(string name) {
         account_holder = name;
     }
 
-    string getAccountHolder() {//member function
+    string getAccountHolder() {
         return account_holder;
     }
 
     void setBalance(double bal) {
-        balance = bal;//member function
+        balance = bal;
     }
 
     double getBalance() {
         return balance;
     }
-int main(){//main function
-   Bank account antonito;//object
-   antonito.account_holder="Antonito";//object
+int main(){
+   Bank account antonito;
+   antonito.account holder="Antonito";
    antonito.balance=100,000,000;
    cout<<"Account holder:",,antonito.account holder<<endl;
    cout<<"balance:"<<antonito.balance<<endl;
-    return 0;//end of the program
+    return 0;
 }
 
