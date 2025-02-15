@@ -1,3 +1,11 @@
+//author: Anthony Ndungu
+// Date: 2025/15/02
+// Description: A program that creates a car object with brand, model, price, and mileage attributes.
+// The program will have a function to display the details of the car, and another function to simulate the car driving a certain distance and updating the mileage.
+// The program will then create a car object and set the brand, model, price, and mileage attributes, and then display the details of the car.
+// The program will then simulate the car driving for 150 miles and display the updated mileage.
+// The program will then simulate the car driving for 300 miles and display the updated mileage.
+// Admission number:BSCIT-05-0097/2024
 #include<iostream>//cout,cin
 #include<string>//shows the string
 using namespace std;//cout,cin,endl
