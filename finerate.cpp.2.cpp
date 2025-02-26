@@ -1,3 +1,16 @@
+//author: Anthony Ndungu
+// date: 2025/15/02
+// Description: A program that calculates the fine amount for overdue library books based on the number of days overdue.
+// The program takes the book ID, due date, and return date as input, and calculates the fine amount based on the number of days overdue.
+// The fine rates are as follows:
+// - 20 per day for up to 7 days overdue
+// - 50 per day for 8-14 days overdue
+// - 100 per day for 15-30 days overdue
+// - 200 per day for over 30 days overdue
+// The program uses the calculateDaysOverdue function to calculate the number of days between the due date and return date.
+// The fine amount is then calculated based on the number of days overdue and the fine rates.
+// The program outputs the fine amount for the book with the given book ID.
+// Admission number:BSCIT-05-0097/2024
 #include <iostream>
 #include <string>
 #include <ctime>  // Include the ctime library to handle date calculations
